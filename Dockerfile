@@ -18,5 +18,5 @@ RUN tar -xvf /tmp/tomcat.tar.gz -C /usr/local/ \
 ADD docker-demo.war /usr/local/apache-tomcat-6.0.45/webapps/
 
 ### run ###
-EXPOSE 9090
+EXPOSE 8080
 CMD ["catalina.sh", "run"]
